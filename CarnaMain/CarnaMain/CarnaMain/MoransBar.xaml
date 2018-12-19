@@ -8,7 +8,7 @@
             <ScrollView>
                 <StackLayout>
                     <Image x:Name="Morans" Aspect="AspectFit"></Image>
-                    <Label Text="Welcome to Xamarin.Forms!"
+                    <Label Text="Morans Bar is the pub that serves the nicest pint of Guinness in Carna"
                    TextColor="DarkGray"
                 FontSize="Large"
                 VerticalOptions="CenterAndExpand" 

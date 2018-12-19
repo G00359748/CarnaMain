@@ -8,7 +8,7 @@
             <ScrollView>
                 <StackLayout>
                     <Image x:Name="McDara" Aspect="AspectFit"></Image>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="MacDara's Island is an island located near Mace, Carna, Co.Galway"
                    TextColor="DarkGray"
                 FontSize="Large"
                 VerticalOptions="CenterAndExpand" 

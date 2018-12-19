@@ -7,7 +7,7 @@
         <StackLayout>
             <ScrollView>
                 <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="Contact me by phone number:0876939942 or by way of Email:Shanomac97@gmail.com"
                    TextColor="DarkGray"
                 FontSize="Large"
                 VerticalOptions="CenterAndExpand" 

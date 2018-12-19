@@ -8,7 +8,7 @@
             <ScrollView>
                 <StackLayout>
                     <Image x:Name="CarnaBay" Aspect="AspectFit"></Image>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="CarnaBayHotel is the the premier hotel in the village of Carna"
                    TextColor="DarkGray"
                 FontSize="Large"
                 VerticalOptions="CenterAndExpand" 
