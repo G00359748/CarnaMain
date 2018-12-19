@@ -15,16 +15,46 @@ namespace CarnaMain
 		public Home ()
 		{
 			InitializeComponent ();
-            addImagesToPages1();
+            addImagesToPages2();
         }
 
-        private void addImagesToPages1()
+        private void addImagesToPages2()
         {
-            var assembly = typeof(MainPage);
+            var assembly = typeof(Home);
 
-            string strfilename = "Carna.Images.Carna1.jpg";
+            string strfilename = "CarnaMain.Images.Carna1.jpg";
 
             Carna1.Source = ImageSource.FromResource(strfilename, assembly);
+        }
+
+        private void MoyrusButton_Clicked(object sender, EventArgs obj)
+        {
+            Navigation.PushAsync(new MoyrusBeach());
+        }
+
+        private void CarnaButton_Clicked(object sender, EventArgs obj)
+        {
+            Navigation.PushAsync(new CarnaBayHotel());
+        }
+
+        private void JoeHeaneyButton_Clicked(object sender, EventArgs obj)
+        {
+            Navigation.PushAsync(new JoeHeaneyFestival());
+        }
+
+        private void MacDaraButton_Clicked(object sender, EventArgs obj)
+        {
+            Navigation.PushAsync(new MacDarasIsland());
+        }
+
+        private void MoransButton_Clicked(object sender, EventArgs obj)
+        {
+            Navigation.PushAsync(new MoransBar());
+        }
+
+        private void ContactButton_Clicked(object sender, EventArgs obj)
+        {
+            Navigation.PushAsync(new Contact());
         }
     }
 }

@@ -14,6 +14,42 @@
                 FontSize="Large"
                 VerticalOptions="Center" 
                 HorizontalOptions="CenterAndExpand" />
+
+             <Button x:Name="MoyrusBeach"
+            Text="Moyrus Beach"
+            Clicked="MoyrusButton_Clicked"
+            HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+                    <Button x:Name="CarnaBayHotel"
+            Text="Carna Bay Hotel"
+            Clicked="CarnaButton_Clicked"
+            HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+                    <Button x:Name="JoeHeaney"
+            Text="Joe Heaney Festival"
+            Clicked="JoeHeaneyButton_Clicked"
+            HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+                    <Button x:Name="MacDara"
+            Text="Macdara's Island"
+            Clicked="MacDaraButton_Clicked"
+            HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+                    <Button x:Name="MoransBar"
+            Text="Moran's Bar"
+            Clicked="MoransButton_Clicked"
+            HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+                    <Button x:Name="Contact"
+            Text="Contact Us"
+            Clicked="ContactButton_Clicked"
+            HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
                 </StackLayout>
             </ScrollView>
         </StackLayout>
