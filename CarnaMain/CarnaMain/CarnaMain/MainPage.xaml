@@ -21,7 +21,11 @@
                HeightRequest="390"
                Aspect="AspectFit"/>
 
-        
+        <Button x:Name="PleaseEnterButton"
+            Text="Please Enter"
+            Clicked="PleaseEnterButton_Clicked"
+            HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
     </StackLayout>
 
 </ContentPage>

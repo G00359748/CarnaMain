@@ -7,11 +7,13 @@ namespace CarnaMain
 {
     public partial class App : Application
     {
+        private NavigationPage Home;
         public App()
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
+            Home = new NavigationPage(new Home());
         }
 
         protected override void OnStart()

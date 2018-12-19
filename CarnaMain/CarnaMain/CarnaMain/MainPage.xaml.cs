@@ -24,6 +24,12 @@ namespace CarnaMain
             MacePier.Source = ImageSource.FromResource(strfilename, assembly);
         }
 
-       
+        private void PleaseEnterButton_Clicked(object sender, EventArgs obj)
+        {
+
+            Navigation.PushAsync(new Home());
+
+        }
+
     }
 }
