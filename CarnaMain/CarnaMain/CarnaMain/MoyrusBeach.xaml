@@ -8,7 +8,7 @@
             <ScrollView>
                 <StackLayout>
                     <Image x:Name="Moyrus" Aspect="AspectFit"></Image>
-                    <Label Text="Moyrus Beach is loacated in Moyrus in the village of Carna Co.Galway"
+                    <Label Text="Moyrus Beach is loacated in Moyrus in the village of Carna Co.Galway.I would recommended that this the best beach to go to on a nice summers day.It is also the safest beach around the village and it's highly recommended by the local people when tourists ask for directions to the loacal beach.This Beach would be the longest beach in the village of Carna as it is separated into different sections."
                 TextColor="DarkGray"
                 FontSize="Large"
                 VerticalOptions="CenterAndExpand" 
