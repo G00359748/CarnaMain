@@ -8,7 +8,7 @@
             <ScrollView>
                 <StackLayout>
                     <Image x:Name="CarnaBay" Aspect="AspectFit"></Image>
-            <Label Text="CarnaBayHotel is the the premier hotel in the village of Carna"
+            <Label Text="CarnaBayHotel is the the premier hotel in the village of Carna.It is owned by Mary and Paraic Cloherty who have owned it for many years now and it's been very successful.When it first opened years ago it had seafood restaurant which served local and fresh seafood from the area but now the menu is more diverse.It is opened from March to November every year and it is closed for the remaining months.It's busiest time is during the summers with the amount of tourists who stay there."
                    TextColor="DarkGray"
                 FontSize="Large"
                 VerticalOptions="CenterAndExpand" 
