@@ -15,6 +15,17 @@ namespace CarnaMain
 		public CarnaBayHotel ()
 		{
 			InitializeComponent ();
-		}
-	}
+            addImagesToPages4();
+        }
+        
+
+    private void addImagesToPages4()
+    {
+        var assembly = typeof(Home);
+
+        string strfilename = "CarnaMain.Images.CarnaBay.jpg";
+
+        CarnaBay.Source = ImageSource.FromResource(strfilename, assembly);
+    }
+}
 }

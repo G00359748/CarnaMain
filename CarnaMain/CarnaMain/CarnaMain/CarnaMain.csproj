@@ -10,11 +10,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\Carna1.jpg" />
+    <None Remove="Images\CarnaBay.jpg" />
+    <None Remove="Images\JoeHeaney1.jpg" />
     <None Remove="Images\Mace-Pier.jpg" />
+    <None Remove="Images\McDara.jpg" />
+    <None Remove="Images\Morans.jpg" />
+    <None Remove="Images\Moyrus.jpeg" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Images\Carna1.jpg" />
+    <EmbeddedResource Include="Images\CarnaBay.jpg" />
+    <EmbeddedResource Include="Images\JoeHeaney1.jpg" />
     <EmbeddedResource Include="Images\Mace-Pier.jpg" />
+    <EmbeddedResource Include="Images\McDara.jpg" />
+    <EmbeddedResource Include="Images\Morans.jpg" />
+    <EmbeddedResource Include="Images\Moyrus.jpeg" />
   </ItemGroup>
 
   <ItemGroup>

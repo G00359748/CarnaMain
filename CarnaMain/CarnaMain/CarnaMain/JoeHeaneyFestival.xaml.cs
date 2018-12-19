@@ -15,6 +15,16 @@ namespace CarnaMain
 		public JoeHeaneyFestival ()
 		{
 			InitializeComponent ();
-		}
-	}
+            addImagesToPages5();
+        }
+
+        private void addImagesToPages5()
+        {
+            var assembly = typeof(Home);
+
+            string strfilename = "CarnaMain.Images.JoeHeaney1.jpg";
+
+            JoeHeaney1.Source = ImageSource.FromResource(strfilename, assembly);
+        }
+    }
 }

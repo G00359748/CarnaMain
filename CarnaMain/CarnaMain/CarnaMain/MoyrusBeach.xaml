@@ -5,9 +5,16 @@
               BackgroundColor="LightBlue">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Moyrus Beach is loacated in Moyrus in the village of Carna Co.Galway"
+            <ScrollView>
+                <StackLayout>
+                    <Image x:Name="Moyrus" Aspect="AspectFit"></Image>
+                    <Label Text="Moyrus Beach is loacated in Moyrus in the village of Carna Co.Galway"
+                TextColor="DarkGray"
+                FontSize="Large"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+                </StackLayout>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

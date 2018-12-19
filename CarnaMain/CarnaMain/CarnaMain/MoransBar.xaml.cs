@@ -15,6 +15,16 @@ namespace CarnaMain
 		public MoransBar ()
 		{
 			InitializeComponent ();
-		}
-	}
+            addImagesToPages7();
+        }
+
+        private void addImagesToPages7()
+        {
+            var assembly = typeof(Home);
+
+            string strfilename = "CarnaMain.Images.Morans.jpg";
+
+            Morans.Source = ImageSource.FromResource(strfilename, assembly);
+        }
+    }
 }

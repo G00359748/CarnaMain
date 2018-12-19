@@ -15,6 +15,16 @@ namespace CarnaMain
 		public MacDarasIsland ()
 		{
 			InitializeComponent ();
-		}
-	}
+            addImagesToPages6();
+        }
+
+        private void addImagesToPages6()
+        {
+            var assembly = typeof(Home);
+
+            string strfilename = "CarnaMain.Images.McDara.jpg";
+
+            McDara.Source = ImageSource.FromResource(strfilename, assembly);
+        }
+    }
 }

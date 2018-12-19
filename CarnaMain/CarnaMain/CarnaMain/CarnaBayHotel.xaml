@@ -5,9 +5,16 @@
              BackgroundColor="LightBlue">
     <ContentPage.Content>
         <StackLayout>
+            <ScrollView>
+                <StackLayout>
+                    <Image x:Name="CarnaBay" Aspect="AspectFit"></Image>
             <Label Text="Welcome to Xamarin.Forms!"
+                   TextColor="DarkGray"
+                FontSize="Large"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+                </StackLayout>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -14,7 +14,17 @@ namespace CarnaMain
 	{
 		public MoyrusBeach ()
 		{
-			InitializeComponent ();
-		}
-	}
+			InitializeComponent();
+            addImagesToPages3();
+        }
+
+        private void addImagesToPages3()
+        {
+            var assembly = typeof(Home);
+
+            string strfilename = "CarnaMain.Images.Moyrus.jpeg";
+
+            Moyrus.Source = ImageSource.FromResource(strfilename, assembly);
+        }
+    }
 }
