@@ -3,13 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CarnaMain.Home"
     BackgroundColor="LightBlue">
-
+    <!-- Cool comment -->
     <ContentPage.Content>
         <StackLayout>
             <ScrollView>
                 <StackLayout>
                     <Image x:Name="Carna1" Aspect="AspectFit"></Image>
-                    <Label Text="Carna is a small village situated in Connemara Co.Galway located in the west of Ireland and it's an area mainly dominated by people who speak both Irish and English.It is well known for it's use of the Irish Language and is also known for it's traditional music and singing as it has produced many famous musicians, dancers and singers over the years.It is also known for it's beautiful scenery and beaches around the place especially in the summertime.In this app I have listed either events or place which I would recommend to go if you were to ever visit the village of Carna"
+                    <Label Text="Carna is a small village situated in Connemara Co.Galway located in the west of Ireland and it's an area mainly dominated by people who speak both Irish and English.It is well known for it's use of the Irish Language and is also known for it's traditional music and singing as it has produced many famous musicians, dancers and singers over the years.It is also known for it's beautiful scenery and beaches around the place especially in the summertime.In this app I have listed either events or place which I would recommend to go if you were to ever visit the village of Carna.Please fell free to click on any of these down below."
                 TextColor="DarkGray"
                 FontSize="Large"
                 VerticalOptions="Center" 
