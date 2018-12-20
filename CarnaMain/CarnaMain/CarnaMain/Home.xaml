@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CarnaMain.Home"
     BackgroundColor="LightBlue">
-    <!-- Cool comment -->
+    <!-- It has an image of the village of Carna on top.-->
     <ContentPage.Content>
         <StackLayout>
             <ScrollView>
@@ -15,6 +15,8 @@
                 VerticalOptions="Center" 
                 HorizontalOptions="CenterAndExpand" />
 
+                    <!-- In the Home page I included the buttons that will let me go into the other pages on the app. -->
+                    
              <Button x:Name="MoyrusBeach"
             Text="Moyrus Beach"
             Clicked="MoyrusButton_Clicked"

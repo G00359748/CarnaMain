@@ -8,11 +8,11 @@
 
 
     <StackLayout>
-        <!-- Place new controls here -->
+        <!-- In this page It welcomes you into the app and let's you enter the home page -->
         <Label Text="Welcome to the Carna Tourism App!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
-
+        <!-- A image of Mace Pier -->
         <Image x:Name="MacePier" 
                Margin="10, 5, 10, 10"
                HorizontalOptions="Center"
@@ -21,6 +21,7 @@
                HeightRequest="390"
                Aspect="AspectFit"/>
 
+        <!-- The button to enter into the Home Page -->
         <Button x:Name="PleaseEnterButton"
             Text="Please Enter"
             Clicked="PleaseEnterButton_Clicked"

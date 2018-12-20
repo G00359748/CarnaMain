@@ -7,7 +7,9 @@
         <StackLayout>
             <ScrollView>
                 <StackLayout>
+                    <!-- I included an image of MacDara's Island on top-->
                     <Image x:Name="McDara" Aspect="AspectFit"></Image>
+                    <!-- The text and all the elements that are on it-->
             <Label Text="MacDara's Island is an island located near Mace, Carna, Co.Galway.This Island is named after the saint MacDara who lived on this Island many years ago and built the stone building that's that's pictured above and it's also where he stayed during his time on the island.Every year on the 16th of July the locals from Carna and other people travel to the Island on boats where the parish priest of Carna Father Padraig Staunton performs mass to mark the occasion"
                    TextColor="DarkGray"
                 FontSize="Large"

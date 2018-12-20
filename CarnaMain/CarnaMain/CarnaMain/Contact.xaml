@@ -7,6 +7,7 @@
         <StackLayout>
             <ScrollView>
                 <StackLayout>
+                    <!-- In this I put in my phone number and my email if people have any other questions -->
             <Label Text="Contact me by phone number:0876939942 or by way of Email:Shanomac97@gmail.com"
                    TextColor="DarkGray"
                 FontSize="Large"
